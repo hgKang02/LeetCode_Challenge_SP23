@@ -10,12 +10,4 @@ class Solution:
             if left == right:
                 break
             right -= 1
-        # for i in range(len(string)):
-        #     if i <= len(string) // 2:
-        #         arr.append(string[i])
-        #     else:
-        #         arr2.append(string[i])
-        # for i in range(1, len(string) // 2):
-        #     if arr[i] != arr2[len(string) - i]:
-        #         return False
         return True
